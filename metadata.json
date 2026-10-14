@@ -1,0 +1,6 @@
+{
+  "name": "3D Geometry World",
+  "description": "Interactive 3D geometry educational website for school science exhibitions. Explore Cube, Cuboid, Cylinder, Cone, Sphere, and Hemisphere with 3D models, video lessons, and step-by-step formulas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
