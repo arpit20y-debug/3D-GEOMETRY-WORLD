@@ -11,7 +11,7 @@ interface QrCodeModalProps {
 export const QrCodeModal: React.FC<QrCodeModalProps> = ({
   isOpen,
   onClose,
-  defaultUrl = 'https://ais-pre-27mcoajyaxgotmzuxb4ejy-703217512304.asia-northeast1.run.app',
+  defaultUrl = 'https://3-d-geometry-world.vercel.app/',
 }) => {
   const [url, setUrl] = useState(defaultUrl);
   const [copied, setCopied] = useState(false);
@@ -24,7 +24,7 @@ export const QrCodeModal: React.FC<QrCodeModalProps> = ({
     if (canvas) {
       QRCode.toCanvas(
         canvas,
-        url || 'https://ais-pre-27mcoajyaxgotmzuxb4ejy-703217512304.asia-northeast1.run.app',
+        url || 'https://3-d-geometry-world.vercel.app/',
         {
           width: 260,
           margin: 2,

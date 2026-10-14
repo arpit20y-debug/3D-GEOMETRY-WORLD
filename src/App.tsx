@@ -151,6 +151,7 @@ export default function App() {
       <QrCodeModal
         isOpen={isQrModalOpen}
         onClose={() => setIsQrModalOpen(false)}
+        defaultUrl="https://3-d-geometry-world.vercel.app/"
       />
 
       {/* Video URLs Configuration & Test Modal */}
